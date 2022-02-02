@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+#counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#counter span {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+button {
+  min-width: 50px;
+  min-height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
